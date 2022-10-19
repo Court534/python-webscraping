@@ -66,6 +66,6 @@ weather = pd.DataFrame({
     "period": periods,
     "short_desc": short_descs,
     "temp": temps,
-    "desc": descs
+    "desc":descs
 })
 print(weather)
