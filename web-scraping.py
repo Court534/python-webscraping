@@ -25,7 +25,7 @@ print(temp)
 img = tonight.find("img")
 desc = img['title']
 print(desc)
-
+print("\n")
 period = tomorrow.find(class_="period-name").get_text()
 short_desc = tomorrow.find(class_="short-desc").get_text()
 temp = tomorrow.find(class_="temp").get_text()
@@ -36,7 +36,7 @@ print(temp)
 img = tomorrow.find("img")
 desc = img['title']
 print(desc)
-
+print("\n")
 period = friday.find(class_="period-name").get_text()
 short_desc = friday.find(class_="short-desc").get_text()
 temp = friday.find(class_="temp").get_text()
